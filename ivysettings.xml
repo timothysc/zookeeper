@@ -19,7 +19,7 @@
 
   <include url="${ivy.default.conf.dir}/ivyconf-local.xml"/>
   <settings defaultResolver="default"/>
-  <typedef name="xmvn" classname="org.fedoraproject.maven.connector.ivy.IvyResolver"/>
+  <typedef name="xmvn" classname="org.fedoraproject.xmvn.connector.ivy.IvyResolver"/>
   <resolvers>
     <xmvn name="XMvn"/>
 
